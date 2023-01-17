@@ -137,3 +137,40 @@ footer {
     padding: 8px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 788px) {
+    header > p {
+        margin-left: 3%;
+    }
+    header > ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #hero {
+        flex-direction: column;
+        padding: 5vw;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #random-container {
+        flex-wrap: wrap;
+    }
+    figure {
+        width: 90%;
+        padding: 32px;
+        font-size: 1rem;
+    }
+    blockquote {
+        font-size: 22px;
+    }
+    #call {
+        margin: 5vw 10vw;
+        padding: 1.5em 1em;
+        gap:0.7rem;
+    }
+    #call-button {
+        height:fit-content
+    }
+}
