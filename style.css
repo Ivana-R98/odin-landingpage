@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -149,7 +150,13 @@ footer {
     }
     #hero {
         flex-direction: column;
-        padding: 5vw;
+        padding: 3%;
+    }
+    #left h1 {
+        font-size: 28px;
+    }
+    #left {
+        width:auto;
     }
     h2 {
         font-size: 20px;
