@@ -22,7 +22,7 @@ header p {
 }
 li {
     display: inline; 
-    margin: 1rem;   
+    margin: 0.5rem;   
 }
 a {
    text-decoration: none; 
